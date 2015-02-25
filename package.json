@@ -24,11 +24,10 @@
   "homepage": "https://github.com/strongloop/strong-service-systemd",
   "dependencies": {
     "lodash": "^2.4.1",
-    "minimist": "^0.2.0",
-    "tap": "^0.4.13"
+    "minimist": "^0.2.0"
   },
   "devDependencies": {
-    "tap": "git://github.com/strongloop-forks/node-tap#production"
+    "tap": "^0.6.0"
   },
   "directories": {
     "test": "test"
