@@ -25,11 +25,10 @@ LimitNOFILE=infinity
 # Allow core dumps for debugging
 LimitCORE=infinity
 
-# Assuming the service is a network accessible app
-After=network-online.target
-Wants=network-online.target
-
 StandardInput=null
 StandardOutput=syslog
 StandardError=syslog
 Restart=always
+
+[Install]
+WantedBy=multi-user.target
