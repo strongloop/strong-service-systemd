@@ -1,4 +1,10 @@
-2015-03-13, Version 1.1.0
+2015-05-28, Version 1.2.0
+=========================
+
+ * deps: upgrad lodash to lodash@3 (Ryan Graham)
+
+
+2015-03-12, Version 1.1.0
 =========================
 
  * Remove After/Wants options and allow service to be enabled/disabled. (braincomb)
