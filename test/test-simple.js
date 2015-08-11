@@ -1,7 +1,6 @@
-var assert = require('assert');
 var common = require('./common');
-
 var render = require('../');
+var tap = require('tap');
 
 var options = {
   name: 'strong-pm',
@@ -14,6 +13,8 @@ var options = {
 
 var expected = common.fixture('strong-pm.service');
 
-var result = render(options);
-
-assert.strictEqual(result, expected);
+tap.test('simple render', function(t) {
+  var result = render(options);
+  t.equal(result, expected, 'should render correctly');
+  t.end();
+});

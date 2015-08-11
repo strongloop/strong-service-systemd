@@ -1,5 +1,5 @@
-var assert = require('assert');
 var render = require('../');
+var tap = require('tap');
 
 var options = {
   name: 'strong-pm',
@@ -19,5 +19,8 @@ var ENV_BAR = /^Environment=BAR=bar$/m;
 
 var result = render(options);
 
-assert(ENV_FOO.test(result));
-assert(ENV_BAR.test(result));
+tap.test('environment options', function(t) {
+  t.match(result, ENV_FOO, 'should contain env var');
+  t.match(result, ENV_BAR, 'should contain env var');
+  t.end();
+});
