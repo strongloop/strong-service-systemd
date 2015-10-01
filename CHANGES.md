@@ -1,3 +1,13 @@
+2015-10-01, Version 1.2.1
+=========================
+
+ * Use strongloop conventions for licensing (Sam Roberts)
+
+ * test: generate cobertura coverage reports (Ryan Graham)
+
+ * test: upgrade to tap@1 (Ryan Graham)
+
+
 2015-05-28, Version 1.2.0
 =========================
 
