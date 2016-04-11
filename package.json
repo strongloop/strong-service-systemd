@@ -1,6 +1,6 @@
 {
   "name": "strong-service-systemd",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Generate an systemd job using the provided parameters.",
   "main": "index.js",
   "scripts": {
