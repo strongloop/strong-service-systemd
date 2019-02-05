@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/strongloop/strong-service-systemd",
   "dependencies": {
-    "lodash": "^3.9.3",
+    "lodash": "^4.17.11",
     "minimist": "^0.2.0"
   },
   "devDependencies": {
